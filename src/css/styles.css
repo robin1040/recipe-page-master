@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 15px;
+    margin-top: 32px;
+    min-width: 320px;
+}
+
+h1 {
+    width: 323px;
+    height: 29px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 31.99px;
+    font-weight: 700;
+}
+
+.container-text {
+    display: flex;
+    margin-top: 16px;
+}
+
+.icon-eclipse span {
+    rotate: 90deg;
+    color: #C4C4C4;
+}
+
+.container-text p {
+    margin-left: 12px;
+    width: 320px;
+    height: 88px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+}
+
+.box-img {
+    width: 352px;
+    height: 213.83px;
+    margin-top: 12px;
+}
+
+.box-img img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Estilos contenedor de iconos y tiempos */
+
+.container-icon {
+    display: flex;
+    gap: 15px;
+
+}
+
+.orange {
+    color: #F2994A;
+}
+
+.gray {
+    color: #BDBDBD;
+}
+
+.container-time {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 55px;
+    margin-top: 20.75px;
+    width: 350px;
+}
+
+.servings span {
+    width: 13.54px;
+    height: 12.57px;
+}
+
+.text-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 9.75px;
+}
+
+.text-box P {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12.19px;
+    color: #333;
+    padding-top: 3px;
+}
+
+
+/* Estilos para el contenedor de preparacion */
+
+.container-preparation {
+    margin-top: 30.25px;
+}
+
+.container-preparation h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.title-ingre {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 11px;
+    line-height: 21.33px;
+    margin-bottom: 13px;
+}
+
+.check {
+    display: flex;
+    margin-top: 10px;
+}
+
+.check p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 321px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 8px;
+}
+
+.check span {
+    font-weight: 700;
+}
+
+/* Reniciamos los estilos del checkbox, para usar nuestros estilos */
+.check input {
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    border: 2px solid #BDBDBD
+}
+
+.check input:checked {
+    background-color: #F2994A;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+
+.down-title {
+    margin-top: 42px;
+}
+
+.font-span {
+    font-weight: 500;
+}
+
+.strong {
+    font-weight: 500;
+}
+
+
+/* Estilos para contenedor intrucciones */
+
+.container-intruction {
+    margin-top: 32px;
+}
+
+.box-pass {
+    display: flex;
+    margin-top: 26px;
+}
+
+.number {
+    background-color: #F2994A;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+.text-intruction p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-left: 15px;
+    width: 300px;
+}
+
+.text-intruction p span {
+    font-weight: 700;
+}
+
+.link-recipe {
+    margin-top: 26px;
+    color: #BDBDBD;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.link-recipe h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.link-recipe a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #BDBDBD;
+    font-weight: 400;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 126px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+}
+
+footer p a {
+    color: #828282;
+    font-weight: 700;
+}
